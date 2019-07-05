@@ -1,11 +1,12 @@
-package main.java.org.academiadecodigo.bootcamp;
+package org.academiadecodigo.bootcamp.model.services;
 
-import main.java.org.academiadecodigo.bootcamp.subscribers.Subscriber;
+import org.academiadecodigo.bootcamp.model.subscribers.Subscriber;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Publisher {
+public class PublisherService {
+
     private List<Subscriber> subscribers = new ArrayList<>();
     private String message;
 
@@ -17,7 +18,7 @@ public class Publisher {
         notifyAllObservers(message);
     }
 
-    public void attach(Subscriber subscriber) {
+    public void addSubscriber(Subscriber subscriber) {
         subscribers.add(subscriber);
     }
 

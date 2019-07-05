@@ -1,4 +1,4 @@
-package main.java.org.academiadecodigo.bootcamp.subscribers;
+package org.academiadecodigo.bootcamp.model.subscribers;
 
 public interface Subscriber {
 
