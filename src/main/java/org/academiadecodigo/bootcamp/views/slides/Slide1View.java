@@ -18,6 +18,7 @@ public class Slide1View extends AbstractPresentationView {
 
     @Override
     public void show() {
+
         System.out.println(slide1Controller.getSlide().getSlideText());
         nextMenuPrompt();
         slide1Controller.getNextSlide();

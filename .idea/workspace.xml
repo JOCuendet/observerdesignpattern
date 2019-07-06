@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bfe8ee6-f849-4726-9f3c-aec38f50eabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/PresentationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/SendBroadCastController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/Slide1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/interfaces/SlideInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/Slide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/SendBroadCastView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/aesthetics/ConsoleColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/Bootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/AddSubscriberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/AddSubscriberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/interfaces/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/interfaces/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/UserOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/UserOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PublisherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/subscribers/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/subscribers/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/AddSubscriberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/AddSubscriberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/MenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/Bootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="687">
               <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,42 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="128">
+              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/UserOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -107,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Publisher.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/subscribers/LisboaSubscriber.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Menu.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/subscribers/Subscriber.java" />
@@ -133,16 +104,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/MenuView.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/AddSubscriberView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PublisherService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/SendBroadCastView.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/SendBroadCastController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/subscribers/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/Slides.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/UserOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlideMessages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PresentationServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/interfaces/Slide1View.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/Slide1View.java" />
@@ -155,9 +123,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/PresentationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/Slide.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/aesthetics/AsciiArt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesOptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java" />
       </list>
     </option>
   </component>
@@ -182,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,16 +197,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="observerdesignpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="observerdesignpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="observerdesignpattern" type="b2602c69:ProjectViewProjectNode" />
@@ -295,15 +259,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -316,6 +278,7 @@
       <recent name="org.academiadecodigo.bootcamp.lang" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -387,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562339783074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic slide system done.">
+      <created>1562376242239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562376242239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -397,7 +367,7 @@
     <frame x="-3" y="26" width="2742" height="1740" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26841307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2733485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="controllers views and abstract constructed." />
-    <option name="LAST_COMMIT_MESSAGE" value="controllers views and abstract constructed." />
+    <MESSAGE value="basic slide system done." />
+    <option name="LAST_COMMIT_MESSAGE" value="basic slide system done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PublisherService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -574,38 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/UserOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PresentationServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/PresentationServices.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/SendBroadCastController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -649,24 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/Slide1Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/model/services/Slide.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -702,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///opt/idea-IC-191.7141.44/jre64!/java.base/java/io/ObjectInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -733,10 +638,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/controllers/Slide1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/aesthetics/AsciiArt.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/abstracts/AbstractPresentationView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="352">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -745,25 +681,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/slides/Slide1View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="576">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/views/PresentationView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        <state relative-caret-position="687">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/aesthetics/ConsoleColors.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/SlidesOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/UserOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/bootcamp/lang/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
         </state>
       </provider>
     </entry>

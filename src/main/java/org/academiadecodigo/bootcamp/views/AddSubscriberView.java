@@ -16,7 +16,7 @@ public class AddSubscriberView extends AbstractView {
     @Override
     public void show() {
         StringInputScanner subscriberName = new StringInputScanner();
-        subscriberName.setMessage(Messages.NEWSUBSCRIPERNAME);
+        subscriberName.setMessage(Messages.NEWSUBSCRIBERNAME);
         String name = prompt.getUserInput(subscriberName);
         addSubscriberController.addNewSubscriber(name);
     }
