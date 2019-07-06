@@ -16,10 +16,20 @@ public class MenuView extends AbstractView {
 
     @Override
     public void show() {
+       showMenu();
+    }
+
+    private void showMenu(){
         System.out.println(Messages.WELCOME_MESSAGE);
         MenuInputScanner menuInputScanner = new MenuInputScanner(UserOptions.getMessages());
         menuInputScanner.setMessage("chose an option");
-        int option = prompt.getUserInput(menuInputScanner);
-        menuController.handleMenuInput(option);
+
+        int option;
+
+        while ((option = prompt.getUserInput(menuInputScanner)) != UserOptions.QUIT.getOption()) {
+            System.out.println("option "+option);
+            menuController.handleMenuInput(option);
+        }
+        System.exit(0);
     }
 }

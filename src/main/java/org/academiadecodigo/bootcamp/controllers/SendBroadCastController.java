@@ -3,7 +3,7 @@ package org.academiadecodigo.bootcamp.controllers;
 import org.academiadecodigo.bootcamp.controllers.abstracts.AbstractController;
 import org.academiadecodigo.bootcamp.model.services.PublisherService;
 
-public class AddSubscriberController extends AbstractController {
+public class SendBroadCastController extends AbstractController {
 
     private PublisherService publisherService;
 
@@ -11,9 +11,8 @@ public class AddSubscriberController extends AbstractController {
         this.publisherService = publisherService;
     }
 
-    public void addNewSubscriber(String name) {
-        publisherService.addSubscriber(name);
+    public void sendBroadcastMessage(String message){
+        publisherService.setMessage(message);
+        publisherService.notifyAllObservers();
     }
-
-
 }

@@ -1,5 +1,6 @@
 package org.academiadecodigo.bootcamp.model.services;
 
+import org.academiadecodigo.bootcamp.model.subscribers.Client;
 import org.academiadecodigo.bootcamp.model.subscribers.Subscriber;
 
 import java.util.ArrayList;
@@ -10,19 +11,16 @@ public class PublisherService {
     private List<Subscriber> subscribers = new ArrayList<>();
     private String message;
 
-    public String getMessage() {
-        return message;
-    }
-
     public void setMessage(String message) {
-        notifyAllObservers(message);
+        this.message = message;
     }
 
-    public void addSubscriber(Subscriber subscriber) {
-        subscribers.add(subscriber);
+    public void addSubscriber(String name) {
+        Client newClientSubscriber = new Client(name);
+        subscribers.add(newClientSubscriber);
     }
 
-    public void notifyAllObservers(String message) {
+    public void notifyAllObservers() {
         for (Subscriber subscriber : subscribers) {
             subscriber.update(message);
         }

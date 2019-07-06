@@ -18,7 +18,20 @@ public class Client implements Subscriber {
 
     @Override
     public void update(String message) {
-        System.out.println("\n Hello "+name+"\n you have received a message from the publisher!\n\n");
-        System.out.println("Publisher Message: "+ message +"\n");
+
+        System.out.println(updateString(message));
+    }
+
+    private String updateString (String message){
+        String updateMsg = "\n  ======================================================="  +
+                        "\n                 hello "+name+"!                        " +
+                        "\n          you have received a message!                " +
+                        "\n  _______________________________________________________" +
+                        "\n"+
+                        "\n "+message +
+                        "\n"+
+                        "\n  =======================================================";
+
+        return updateMsg;
     }
 }
