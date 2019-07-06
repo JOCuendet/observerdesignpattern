@@ -2,9 +2,9 @@ package org.academiadecodigo.bootcamp.views;
 
 import org.academiadecodigo.bootcamp.controllers.MenuController;
 import org.academiadecodigo.bootcamp.lang.Messages;
+import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
 import org.academiadecodigo.bootcamp.lang.UserOptions;
 import org.academiadecodigo.bootcamp.scanners.menu.MenuInputScanner;
-import org.academiadecodigo.bootcamp.scanners.string.StringInputScanner;
 import org.academiadecodigo.bootcamp.views.abstracts.AbstractView;
 
 public class MenuView extends AbstractView {
@@ -30,6 +30,7 @@ public class MenuView extends AbstractView {
             System.out.println("option "+option);
             menuController.handleMenuInput(option);
         }
+        System.out.println(SlidesMessages.SLIDE_GOODBYE);
         System.exit(0);
     }
 }

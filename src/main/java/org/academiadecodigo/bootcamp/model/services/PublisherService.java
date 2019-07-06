@@ -25,4 +25,20 @@ public class PublisherService {
             subscriber.update(message);
         }
     }
+
+    public String getSubscribersList() {
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for (Subscriber subscriber : subscribers){
+            if(subscriber instanceof Client){
+               Client client = (Client) subscriber;
+               if(stringBuilder.length() > 0){
+                   stringBuilder.append(" , ");
+               }
+               stringBuilder.append(client.getName());
+            }
+        }
+
+        return stringBuilder+"";
+    }
 }

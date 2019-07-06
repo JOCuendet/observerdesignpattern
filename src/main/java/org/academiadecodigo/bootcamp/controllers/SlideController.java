@@ -5,9 +5,9 @@ import org.academiadecodigo.bootcamp.controllers.interfaces.Controller;
 import org.academiadecodigo.bootcamp.controllers.interfaces.SlideInterface;
 import org.academiadecodigo.bootcamp.model.services.Slide;
 
-public class Slide1Controller extends AbstractController implements SlideInterface {
+public class SlideController extends AbstractController implements SlideInterface {
 
-    private Controller controller;
+    private Controller nextController;
     private Slide slide;
 
     @Override
@@ -16,13 +16,16 @@ public class Slide1Controller extends AbstractController implements SlideInterfa
     }
 
     @Override
-    public void setNextController(Controller controller) {
-        this.controller = controller;
+    public void setNextController(Controller nextController) {
+        this.nextController = nextController;
     }
 
     @Override
     public void getNextSlide() {
-        controller.init();
+        if(nextController == null){
+            return;
+        }
+        nextController.init();
     }
 
     @Override

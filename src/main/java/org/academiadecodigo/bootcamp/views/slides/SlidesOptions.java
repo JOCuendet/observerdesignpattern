@@ -1,5 +1,7 @@
-package org.academiadecodigo.bootcamp.lang;
+package org.academiadecodigo.bootcamp.views.slides;
 
+
+import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
 
 public enum SlidesOptions {
 

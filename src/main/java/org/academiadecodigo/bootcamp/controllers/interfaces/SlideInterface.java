@@ -7,5 +7,5 @@ public interface SlideInterface {
     void getNextSlide();
     void setSlide(Slide slide);
     Slide getSlide();
-    void setNextController(Controller nextControler);
+    void setNextController(Controller nextController);
 }

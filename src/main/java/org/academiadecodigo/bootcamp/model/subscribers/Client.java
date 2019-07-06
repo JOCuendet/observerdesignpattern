@@ -1,34 +1,46 @@
 package org.academiadecodigo.bootcamp.model.subscribers;
 
-import org.academiadecodigo.bootcamp.model.services.PublisherService;
+import org.academiadecodigo.bootcamp.aesthetics.ConsoleColors;
+
 
 public class Client implements Subscriber {
-    private PublisherService publisher;
+
 
     protected String name;
 
     public Client(String name) {
         this.name = name;
-
     }
-
-    public void setPublisher(PublisherService publisher) {
-        this.publisher = publisher;
-    }
-
     @Override
     public void update(String message) {
 
         System.out.println(updateString(message));
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String warpString(String message){
+        StringBuilder sb = new StringBuilder(message);
+
+        int i = 0;
+        while (i + 40 < sb.length() && (i = sb.lastIndexOf(" ", i + 40)) != -1) {
+            sb.replace(i, i + 1, "\n         ");
+        }
+
+        return sb.toString();
+    }
+
+
+
     private String updateString (String message){
         String updateMsg = "\n  ======================================================="  +
-                        "\n                 hello "+name+"!                        " +
-                        "\n          you have received a message!                " +
+                        "\n                     hello "+ConsoleColors.PURPLE_BOLD_BRIGHT +name+ConsoleColors.RESET+"!                        " +
+                        "\n               you have received a message!                " +
                         "\n  _______________________________________________________" +
                         "\n"+
-                        "\n "+message +
+                        "\n        "+ ConsoleColors.GREEN + " " +warpString(message) + ConsoleColors.RESET +
                         "\n"+
                         "\n  =======================================================";
 
