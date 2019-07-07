@@ -5,7 +5,10 @@ import org.academiadecodigo.bootcamp.model.services.Slide;
 public interface SlideInterface {
 
     void getNextSlide();
-    void setSlide(Slide slide);
+
     Slide getSlide();
+
+    void setSlide(Slide slide);
+
     void setNextController(Controller nextController);
 }

@@ -11,18 +11,13 @@ public class SlideController extends AbstractController implements SlideInterfac
     private Slide slide;
 
     @Override
-    public void setSlide(Slide slide) {
-        this.slide = slide;
-    }
-
-    @Override
     public void setNextController(Controller nextController) {
         this.nextController = nextController;
     }
 
     @Override
     public void getNextSlide() {
-        if(nextController == null){
+        if (nextController == null) {
             return;
         }
         nextController.init();
@@ -31,5 +26,10 @@ public class SlideController extends AbstractController implements SlideInterfac
     @Override
     public Slide getSlide() {
         return slide;
+    }
+
+    @Override
+    public void setSlide(Slide slide) {
+        this.slide = slide;
     }
 }

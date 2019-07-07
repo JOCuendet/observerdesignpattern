@@ -1,8 +1,6 @@
 package org.academiadecodigo.bootcamp.views.slides;
 
 
-import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
-
 public enum SlidesOptions {
 
     SLIDE1(1, SlidesMessages.SLIDE1),

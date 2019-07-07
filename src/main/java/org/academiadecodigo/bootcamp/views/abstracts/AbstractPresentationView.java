@@ -1,6 +1,5 @@
 package org.academiadecodigo.bootcamp.views.abstracts;
 
-import org.academiadecodigo.bootcamp.Prompt;
 import org.academiadecodigo.bootcamp.scanners.string.StringSetInputScanner;
 
 import java.util.HashSet;

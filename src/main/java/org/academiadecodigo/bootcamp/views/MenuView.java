@@ -2,10 +2,10 @@ package org.academiadecodigo.bootcamp.views;
 
 import org.academiadecodigo.bootcamp.controllers.MenuController;
 import org.academiadecodigo.bootcamp.lang.Messages;
-import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
 import org.academiadecodigo.bootcamp.lang.UserOptions;
 import org.academiadecodigo.bootcamp.scanners.menu.MenuInputScanner;
 import org.academiadecodigo.bootcamp.views.abstracts.AbstractView;
+import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
 
 public class MenuView extends AbstractView {
     private MenuController menuController;
@@ -16,10 +16,10 @@ public class MenuView extends AbstractView {
 
     @Override
     public void show() {
-       showMenu();
+        showMenu();
     }
 
-    private void showMenu(){
+    private void showMenu() {
         System.out.println(Messages.WELCOME_MESSAGE);
         MenuInputScanner menuInputScanner = new MenuInputScanner(UserOptions.getMessages());
         menuInputScanner.setMessage("chose an option");
@@ -27,7 +27,7 @@ public class MenuView extends AbstractView {
         int option;
 
         while ((option = prompt.getUserInput(menuInputScanner)) != UserOptions.QUIT.getOption()) {
-            System.out.println("option "+option);
+            System.out.println("option " + option);
             menuController.handleMenuInput(option);
         }
         System.out.println(SlidesMessages.SLIDE_GOODBYE);

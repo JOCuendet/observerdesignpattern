@@ -2,7 +2,6 @@ package org.academiadecodigo.bootcamp;
 
 import org.academiadecodigo.bootcamp.controllers.*;
 import org.academiadecodigo.bootcamp.controllers.interfaces.Controller;
-import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
 import org.academiadecodigo.bootcamp.lang.UserOptions;
 import org.academiadecodigo.bootcamp.model.services.PublisherService;
 import org.academiadecodigo.bootcamp.model.services.Slide;
@@ -11,16 +10,16 @@ import org.academiadecodigo.bootcamp.views.ListSubscribersView;
 import org.academiadecodigo.bootcamp.views.MenuView;
 import org.academiadecodigo.bootcamp.views.SendBroadCastView;
 import org.academiadecodigo.bootcamp.views.slides.SlideView;
+import org.academiadecodigo.bootcamp.views.slides.SlidesMessages;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Bootstrap {
+class Bootstrap {
 
 
-
-    public void init() {
-        Prompt prompt = new Prompt(System.in,System.out);
+    void init() {
+        Prompt prompt = new Prompt(System.in, System.out);
 
         PublisherService publisherService = new PublisherService();
 
@@ -94,7 +93,6 @@ public class Bootstrap {
         slide5Controller.setView(slide5View);
         slide5View.setSlideController(slide5Controller);
         slide5View.setPrompt(prompt);
-
 
 
         //next Slides Declarations

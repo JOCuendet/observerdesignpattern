@@ -3,14 +3,14 @@ package org.academiadecodigo.bootcamp.views.slides;
 import org.academiadecodigo.bootcamp.aesthetics.ConsoleColors;
 
 public class SlidesMessages {
-    public static String SLIDE1 =   ConsoleColors.CYAN + ""+
-            "\n        DESIGN PATTERN"+
+    public static String SLIDE1 = ConsoleColors.CYAN + "" +
+            "\n        DESIGN PATTERN" +
             "\n           __  ____  ____  ____  ____  _  _  ____  ____ " +
             "\n          /  \\(  _ \\/ ___)(  __)(  _ \\/ )( \\(  __)(  _ \\" +
             "\n         (  O )) _ (\\___ \\ ) _)  )   /\\ \\/ / ) _)  )   /" +
             "\n          \\__/(____/(____/(____)(__\\_) \\__/ (____)(__\\_)" +
-            "\n"+
-            "\n                                              By: Jonathan Cuendet"+ ConsoleColors.RESET;
+            "\n" +
+            "\n                                              By: Jonathan Cuendet" + ConsoleColors.RESET;
 
     public static String SLIDE2 = ConsoleColors.CYAN + "" +
             "\n" +
@@ -25,7 +25,7 @@ public class SlidesMessages {
             "\\   __\\  |  \\_/ __ \\   \\____ \\_  __ \\/  _ \\| __ \\|  | _/ __ \\ /     \\     /   __/\n" +
             " |  | |   Y  \\  ___/   |  |_> >  | \\(  <_> ) \\_\\ \\  |_\\  ___/|  Y Y  \\   |   |   \n" +
             " |__| |___|  /\\___  >  |   __/|__|   \\____/|___  /____/\\___  >__|_|  /   |___|   \n" +
-            "           \\/     \\/   |__|                    \\/          \\/      \\/    <___>"+
+            "           \\/     \\/   |__|                    \\/          \\/      \\/    <___>" +
             "\n" +
             "\n" + ConsoleColors.RESET;
 
@@ -46,7 +46,7 @@ public class SlidesMessages {
             "\n" +
             "\n" + ConsoleColors.RESET;
 
-    public static String SLIDE4 =  ConsoleColors.CYAN + "" +
+    public static String SLIDE4 = ConsoleColors.CYAN + "" +
             "\n " +
             "\n  ================================================================================== " +
             "\n |                                                                                  |" +
@@ -63,18 +63,18 @@ public class SlidesMessages {
 
     public static String SLIDE5 = "" +
             "\n" +
-            ConsoleColors.YELLOW +"                    (           (        )      )  (         \n" +
-            ConsoleColors.YELLOW_BOLD +"   (                )\\ )  *   ) )\\ )  ( /(   ( /(  )\\ )      \n" +
-            ConsoleColors.YELLOW_BOLD_BRIGHT +" ( )\\      (   (   (()/(` )  /((()/(  )\\())  )\\())(()/( (    \n" +
-            ConsoleColors.YELLOW_BOLD_BRIGHT +" )((_)     )\\  )\\   /(_))( )(_))/(_))((_)\\  ((_)\\  /(_)))\\   \n" +
-            ConsoleColors.YELLOW_BOLD_BRIGHT +"((_)_   _ ((_)((_) (_)) (_(_())(_))    ((_)  _((_)(_)) ((_)  \n" +
-            ConsoleColors.RED +" / _ \\ | | | || __|/ __||_   _||_ _|  / _ \\ | \\| |/ __||__ \\ \n" +
-            ConsoleColors.RED    + "| (_) || |_| || _| \\__ \\  | |   | |  | (_) || .` |\\__ \\  /_/ \n" +
-            ConsoleColors.RED_BOLD    +" \\__\\_\\ \\___/ |___||___/  |_|  |___|  \\___/ |_|\\_||___/ (_) " +
+            ConsoleColors.YELLOW + "                    (           (        )      )  (         \n" +
+            ConsoleColors.YELLOW_BOLD + "   (                )\\ )  *   ) )\\ )  ( /(   ( /(  )\\ )      \n" +
+            ConsoleColors.YELLOW_BOLD_BRIGHT + " ( )\\      (   (   (()/(` )  /((()/(  )\\())  )\\())(()/( (    \n" +
+            ConsoleColors.YELLOW_BOLD_BRIGHT + " )((_)     )\\  )\\   /(_))( )(_))/(_))((_)\\  ((_)\\  /(_)))\\   \n" +
+            ConsoleColors.YELLOW_BOLD_BRIGHT + "((_)_   _ ((_)((_) (_)) (_(_())(_))    ((_)  _((_)(_)) ((_)  \n" +
+            ConsoleColors.RED + " / _ \\ | | | || __|/ __||_   _||_ _|  / _ \\ | \\| |/ __||__ \\ \n" +
+            ConsoleColors.RED + "| (_) || |_| || _| \\__ \\  | |   | |  | (_) || .` |\\__ \\  /_/ \n" +
+            ConsoleColors.RED_BOLD + " \\__\\_\\ \\___/ |___||___/  |_|  |___|  \\___/ |_|\\_||___/ (_) " +
             "\n" +
             "\n" + ConsoleColors.RESET;
 
-    public static String SLIDE6 =  ConsoleColors.BLUE + "" +
+    public static String SLIDE6 = ConsoleColors.BLUE + "" +
             "\n" +
             "  _    _                 _      ____          _ \n" +
             " | |  | |               | |    / __ \\        | |\n" +
@@ -87,7 +87,7 @@ public class SlidesMessages {
             "\n" +
             "\n" + ConsoleColors.RESET;
 
-    public static String SLIDE_GOODBYE =  ConsoleColors.PURPLE_BOLD_BRIGHT + "" +
+    public static String SLIDE_GOODBYE = ConsoleColors.PURPLE_BOLD_BRIGHT + "" +
             "\n" +
             " ________  __    __  ________     \n" +
             "|        \\|  \\  |  \\|        \\    \n" +
@@ -111,7 +111,7 @@ public class SlidesMessages {
             "| $$     \\| $$  \\$$$| $$    $$|  \\\n" +
             " \\$$$$$$$$ \\$$   \\$$ \\$$$$$$$  \\$$\n" +
             "                                  \n" +
-            "\n"+ConsoleColors.RED_BOLD+ "        Thank you. " +
+            "\n" + ConsoleColors.RED_BOLD + "        Thank you. " +
             "\n" +
             "\n" + ConsoleColors.RESET;
 

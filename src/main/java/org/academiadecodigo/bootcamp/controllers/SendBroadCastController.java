@@ -11,7 +11,7 @@ public class SendBroadCastController extends AbstractController {
         this.publisherService = publisherService;
     }
 
-    public void sendBroadcastMessage(String message){
+    public void sendBroadcastMessage(String message) {
         publisherService.setMessage(message);
         publisherService.notifyAllObservers();
     }

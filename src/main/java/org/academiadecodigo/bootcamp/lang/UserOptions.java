@@ -21,17 +21,6 @@ public enum UserOptions {
         this.message = message;
     }
 
-
-    public int getOption() {
-        return option;
-    }
-
-
-    public String getMessage() {
-        return message;
-    }
-
-
     public static String[] getMessages() {
 
         String[] messages = new String[values().length];
@@ -41,5 +30,13 @@ public enum UserOptions {
         }
 
         return messages;
+    }
+
+    public int getOption() {
+        return option;
+    }
+
+    public String getMessage() {
+        return message;
     }
 }

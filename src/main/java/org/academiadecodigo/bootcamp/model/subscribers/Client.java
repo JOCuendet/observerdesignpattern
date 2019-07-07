@@ -6,11 +6,12 @@ import org.academiadecodigo.bootcamp.aesthetics.ConsoleColors;
 public class Client implements Subscriber {
 
 
-    protected String name;
+    private String name;
 
     public Client(String name) {
         this.name = name;
     }
+
     @Override
     public void update(String message) {
 
@@ -21,7 +22,7 @@ public class Client implements Subscriber {
         return name;
     }
 
-    public String warpString(String message){
+    private String warpString(String message) {
         StringBuilder sb = new StringBuilder(message);
 
         int i = 0;
@@ -33,17 +34,16 @@ public class Client implements Subscriber {
     }
 
 
+    private String updateString(String message) {
+        return "\n  =======================================================" +
+                "\n                     hello " + ConsoleColors.PURPLE_BOLD_BRIGHT + name + ConsoleColors.RESET + "!                        " +
+                "\n               you have received a message!                " +
+                "\n  _______________________________________________________" +
+                "\n" +
+                "\n        " + ConsoleColors.GREEN + " " + warpString(message) + ConsoleColors.RESET +
+                "\n" +
+                "\n  =======================================================";
 
-    private String updateString (String message){
-        String updateMsg = "\n  ======================================================="  +
-                        "\n                     hello "+ConsoleColors.PURPLE_BOLD_BRIGHT +name+ConsoleColors.RESET+"!                        " +
-                        "\n               you have received a message!                " +
-                        "\n  _______________________________________________________" +
-                        "\n"+
-                        "\n        "+ ConsoleColors.GREEN + " " +warpString(message) + ConsoleColors.RESET +
-                        "\n"+
-                        "\n  =======================================================";
 
-        return updateMsg;
     }
 }
