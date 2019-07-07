@@ -8,8 +8,8 @@ import java.util.Set;
 
 public abstract class AbstractPresentationView extends AbstractView {
 
-    public void nextMenuPrompt() {
-        clearScreen();
+    protected void nextMenuPrompt() {
+
         Set<String> options = new HashSet<>();
         options.add("n");
         options.add("N");
@@ -19,8 +19,5 @@ public abstract class AbstractPresentationView extends AbstractView {
 
     }
 
-    public void clearScreen(){
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
+
 }
