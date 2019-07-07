@@ -10,7 +10,7 @@ This project was developed as a school homework to show and explain the rest of 
 - Applied the Strategy Design pattern
 
 ## Deployment
-- 'ant build' the project (with the supplied build.xml)
+- 'mvn package' build the project
 
 ## Usage
 - Run the -jar file on the terminal and follow onScreen instructions.
