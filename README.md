@@ -8,11 +8,13 @@ This project was developed as a school homework to show and explain the rest of 
 - Bootstrap wiring
 - Advanced implementation and experimentation with Heritage and Polymorphism concepts (using super classes and interfaces)
 
-## Deployment
-- 'mvn package' build the project
+## Build
+- Build the project using:
+`$ mvn package`
 
 ## Usage
 - Run the -jar file on the terminal and follow onScreen instructions.
+`$ java -jar observerdesignpattern-1.0-SNAPSHOT-jar-with-dependencies.jar`
 
 ## Credits
 #### Jonathan Cuendet
