@@ -7,7 +7,6 @@ This project was developed as a school homework to show and explain the rest of 
 - MVP with Service layer
 - Bootstrap wiring
 - Advanced implementation and experimentation with Heritage and Polymorphism concepts (using super classes and interfaces)
-- Applied the Strategy Design pattern
 
 ## Deployment
 - 'mvn package' build the project
